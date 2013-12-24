@@ -39,5 +39,5 @@ export JAVA_OPTS='-Xms512m -Xmx1024m -XX:MaxPermSize=512m'
 export MAVEN_OPTS='-Xms512m -Xmx1024m -XX:MaxPermSize=200m'
 export SVN_ROOT=svn+ssh://svn.ome.ksu.edu/as/data/svnroot/ome-appdev/
 export MY_APPS=/Users/Tim/Applications
-export PATH=$MY_APPS/bin:$PATH
+export PATH=$MY_APPS/bin:/usr/local/bin:$PATH
 
