@@ -20,8 +20,8 @@ fi
 # -------------------------------------------------------------------
 # stuff for bash-completion and git-completion
 # -------------------------------------------------------------------
-if [ -f /usr/local/etc/bash_completion ]; then
-  source /usr/local/etc/bash_completion
+if [ -f /usr/local/etc/bash_completion.d/git-prompt.sh ]; then
+  source /usr/local/etc/bash_completion.d/git-prompt.sh
 fi
 
 GIT_PS1_SHOWDIRTYSTATE=1
