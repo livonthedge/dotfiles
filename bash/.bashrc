@@ -35,9 +35,9 @@ GIT_PS1_SHOWDIRTYSTATE=1
 
 PS1='\[\e]0;\w\a\]\n\[\e[32m\]\u@\H \[\e[33m\]\w\[\e[0m\] $(__git_ps1 "(%s)") \n$\[\033]0;\u@\h:\w\007\] '
 
+export JAVA_HOME="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home"
 export JAVA_OPTS='-Xms512m -Xmx1024m -XX:MaxPermSize=512m'
 export MAVEN_OPTS='-Xms512m -Xmx1024m -XX:MaxPermSize=200m'
 export SVN_ROOT=svn+ssh://svn.ome.ksu.edu/as/data/svnroot/ome-appdev/
 export MY_APPS=/Users/Tim/Applications
 export PATH=$MY_APPS/bin:/usr/local/bin:$PATH
-
